@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.artworks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.artwork {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.artwork img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.artwork h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.artwork p {
+    font-size: 14px;
+    color: #777;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+#nextButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#nextButton:hover {
+    background-color: #0056b3;
+}
